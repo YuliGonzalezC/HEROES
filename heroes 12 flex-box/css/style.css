@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:roboto;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color:#1CD1B0;
+    width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    z-index: 200;
+    
+}
+
+#descuento{
+    font-weight:normal;
+    font-size: 16px;
+    line-height:18px;
+    padding: 10px 10px;
+    height: 37px;
+}
+
+ 
+h1{
+    height: 80px;
+    padding: 20px 20px;
+    background-color: #00669F;
+    line-height: 47px;
+    font-weight:400px;
+    font-size: 40px;
+
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    max-width: 300px;
+    max-height: 650px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+
+    
+}
+
+.card-header{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.corazon{
+    position: absolute;
+    top: 0.5rem;
+    left:0.5rem;
+}
+
+.card-header .img-perfil{ 
+    position: absolute;
+    bottom:-30px;
+    border-radius: 50% ;
+}
+
+main{
+    width: 100%;
+    margin: 8rem auto auto auto
+
+}
+
+.card-body{
+    text-align: left;
+    padding: 15px;
+    max-height: 336px;
+    max-width: 300px;
+
+}
+
+h3{
+    text-align: center;
+    margin:2rem 0 0.5rem 0;
+    padding:20px;
+}
+
+p{
+    color:#333333;
+    font-size: 16px;
+    
+
+}
+
+.bottom{
+    margin:0 auto;
+    background: #00669F;
+    width: 128px;
+    padding: 10px;
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    
+    
+
+
+}
+
+footer p{
+    margin: 8rem auto auto auto;
+    background-color:#00669F;
+    width:100%;
+    padding: 16px 10px;
+    color: #FFF9F9;
+    line-height: 19px;
+    font-size:1em;
+     
+}
+
+
