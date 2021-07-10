@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap');
+
+body{
+    font-style: normal;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Inter;
+    box-sizing:border-box;
+}
+
+
+header{
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(59, 39, 39, 0.25);
+  
+}
+
+
+nav ul{
+    display: flex;
+    margin-right: 20px;
+    background-color:
+    #001D2D;
+    width:100%;
+    color:white;
+    justify-content:flex-end;
+    
+}
+
+header ul li{
+    padding: 0.8rem;
+   
+    
+}
+
+header div {
+    padding: 10px 0 10px 20px;
+    
+ }
+
+
+.contenido{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:10px 0 1rem 0;
+    
+}
+
+
+
+
+
+#descuento{
+    background-color: #1CD1B0;
+    height: 40px;
+    left: 28px;
+    padding:10px;
+
+        
+}
+
+.logo_nombre{
+    display:flex;
+    align-items: flex-start;
+    background-color: #00669F;
+    width:100%;
+}
+
+
+header p{
+   
+   
+    font-size: 40px;
+    line-height:60px;
+    left:0px;
+    padding:10px;
+    color:white;
+    
+}
+
+
+ 
+h1{
+    height: 80px;
+    padding: 20px 20px;
+    background-color: #00669F;
+    line-height: 47px;
+    font-weight:400px;
+    font-size: 40px;
+
+}
+
+
+main{
+    height: 36rem;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    
+}
+
+h3{
+    font-weight: 800;
+    font-size: 50px;
+    color: #333333;
+    margin-right: 7rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+span{
+    font-Weight:400;
+    color:#00669F;
+    font-size: 20px;
+
+}
+
+ p  {
+   
+    font-size: 20px;
+    font-Weight:400;
+    line-height:2rem;
+}
+
+
+#derechos{
+    background-color: #00669F;
+    line-height:40px;
+    color:#FFF9F9;
+    padding:10px;
+    text-align: center;
+}
+
+
+input, select{
+    width:20rem;
+    border: 1.53407px solid #000000;
+  
+
+}
+
+.opciones{
+display: flex;
+position: relative;
+justify-content: center;
+margin-top: 1rem;
+
+
+}
+
+.reset{
+    border-radius: 23.011px;
+    width:9rem;
+    margin-right:0.5rem ;
+    background-color:  #888888;
+    color:white;
+
+}
+
+.enviar {
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    width:9rem;
+    margin-left:0.5rem ;
+   
+
+}
+
+
+
+
+textarea{
+    height:8rem;
+    width: 100%;
+    border: 1.53407px solid #000000;
+    font-family: Karla;
+    padding: auto;
+    display: flex;
+  
+
+}
+
+::placeholder{
+    font-family: Karla;
+    color: #000000; 
+    
+
+}

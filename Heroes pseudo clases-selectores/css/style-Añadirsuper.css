@@ -1,0 +1,282 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap%27');
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:roboto;
+            box-sizing: border-box;
+            
+        }
+
+
+        header{
+            width: 100%;
+            box-shadow: 0px 4px 4px rgba(59, 39, 39, 0.25);
+        
+        }
+
+
+        nav ul{
+            display: flex;
+            margin-right: 20px;
+            background-color:
+            #001D2D;
+            width:100%;
+            color:white;
+            justify-content:flex-end;
+            
+        }
+
+        header ul li{
+            padding: 0.8rem;
+        
+            
+        }
+
+        header div {
+            padding: 10px 0 10px 20px;
+            
+        }
+
+
+        .contenido{
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            margin:10px 0 1rem 0;
+            
+        }
+
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+
+        #descuento{
+            background-color: #1CD1B0;
+            height: 40px;
+            left: 28px;
+            padding:10px;
+
+                
+        }
+
+        .logo_nombre{
+            display:flex;
+            align-items: flex-start;
+            background-color: #00669F;
+            width:100%;
+        }
+
+
+        header p{
+        
+        
+            font-size: 40px;
+            line-height:60px;
+            left:0px;
+            padding:10px;
+            color:white;
+            
+        }
+
+
+        
+        h1{
+            height: 80px;
+            padding: 20px 20px;
+            line-height: 47px;
+            font-weight:400px;
+            font-size: 40px;
+
+        }
+
+
+        .contenido{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:10px 0 1rem 0;
+    
+}
+
+
+main{
+    height: 40rem;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    
+ }
+            
+                
+
+
+
+            .formulario{
+                display: flex;
+                position:relative;
+                justify-content: center;
+                flex-direction:column;
+                align-items: center;
+                height: 40rem;
+                width: 50rem;
+                background-color: #00669F;
+                color: white;
+                border-radius: 10px;
+                
+                 margin:auto;
+                
+                        }
+
+
+            #parte_arriba{
+                display: flex;
+                position: relative;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                
+
+            }
+
+
+
+
+            #seccion_completa{
+                display: flex;
+                position: relative;
+                flex-direction: row;
+                justify-content:center;
+                line-height:2rem;
+                
+            }
+
+
+
+            .campo_derecho{
+                display: flex;
+                position:relative;
+                flex-direction:column;
+                width:50%; 
+                margin:4rem auto auto 1rem;
+                padding:auto;
+                align-items: right;
+              
+            
+
+            }
+
+            .campo_izquierdo{
+                display: flex;
+                position:relative;
+                flex-direction:column;
+                width:50%; 
+                margin:4rem auto auto 1rem;
+                padding:auto;
+        }
+
+    
+
+        textarea{
+            display: flex;
+            position: relative;
+            height:7rem;
+            margin-top: 1rem;
+
+        }
+
+        a:hover{
+            background-color: burlywood;
+            
+        }
+
+            
+            
+        input, select {
+            border-radius: 5px;
+        
+        }
+
+
+        input:focus {
+            color: orange;
+            font-weight: bold;
+        }
+
+
+
+    .Obligatorio::before {
+        content: "*";
+        color: red;
+    }
+
+    .especie{
+margin-top: 1rem;
+
+    }
+
+
+    .choice{
+        display: flex;
+        position: relative;
+        flex-direction:column;
+    }
+
+    hr {
+        margin: 0;
+    }
+
+    .enviar{
+        background-color: #1CD1B0;
+        border-radius: 20px;
+        width:15rem;
+        height: 3rem;
+        margin-top:2rem;
+        font-weight:bold;
+        font-size:20px;
+        }
+
+        div button::after{
+            content:" tu super"
+
+
+
+        }
+
+
+
+        #derechos{
+            background-color: #00669F;
+            line-height:40px;
+            color:#FFF9F9;
+            padding:10px;
+            text-align: center;
+        }
+
+
+        @media screen and (max-width:460px){
+            
+
+main{
+    width:100%
+}
+
+            .formulario{
+                position: relative;
+                width:20rem;
+            }
+
+            #seccion_completa{
+                position: relative;
+                width:20rem;
+
+            }
+
+            .agregar_foto{
+                display: none;
+
+            }
+        }
